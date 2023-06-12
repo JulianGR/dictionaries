@@ -22,7 +22,7 @@ https://wordlists.assetnote.io/
 # Directories
 
 
-directories_combined.txt
+**directories_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt**
 
 
 Combination of:
@@ -47,7 +47,7 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
 
 # SQLi
-sql_combined.txt
+**sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
 
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi.txt
@@ -57,8 +57,7 @@ Combination of:
 
 
 # XSS
-
-xss_combined.txt
+**xss_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/xss_combined.txt**
 
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS-Fuzzing
@@ -72,6 +71,10 @@ Combination of:
 # LFI
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-Jhaddix.txt
 
+
+# Files
+
+files-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/files-combined.txt
 
 # XXE
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XXE-Fuzzing.txt
@@ -93,7 +96,7 @@ Combination of:
 
 # API
 
-api.txt
+**api.txt: https://github.com/JulianGR/dictionaries/blob/main/api.txt**
 
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/objects.txt
@@ -110,7 +113,7 @@ Combination of:
 
 # Passwords
 
-![[dict-custom.txt]]
+**passwords-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-combined.txt**
 
 Combination of:
 + First 30k lines of rockyou
@@ -133,7 +136,7 @@ Combination of:
 
 # Usernames
 
-![[usernames-custom.txt]]
+**usernames-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/usernames-combined.txt**
 
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
