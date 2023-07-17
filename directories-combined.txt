@@ -59739,10 +59739,6 @@ filter/tips/
 engine/go.php
 engine/download.php
 INSTALL.sqlite.txt
-?q=user/logout/
-?q=filter/tips/
-?level=12
-?
 *x=
 *utm_source=*
 *utm_medium=*
@@ -59778,7 +59774,6 @@ INSTALL.sqlite.txt
 *.gif$
 espacepro*
 developpeurs/
-?&what=
 xls_redirect/
 widget-118218/*
 webpage/
