@@ -5,8 +5,6 @@
 !mssql_setup
 !mysql_setup
 !setup
-%2e%2e//google.com
-%ff
 .FBCIndex
 .ICEauthority
 .JustCode
@@ -26942,7 +26940,6 @@ biblioteca
 sonicwall
 xdr
 xbr
-http%3a%2f%2fwww
 no1
 jw_storsol
 xdi
