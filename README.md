@@ -36,6 +36,14 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM-friendly.txt
 
 
+**spanish_directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_directories.txt**
+Combination of:
++ https://github.com/xmendez/wfuzz/tree/master/wordlist/general
++ https://github.com/v0re/dirb/blob/master/wordlists/spanish.txt
++ https://github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/filename-dirname-bruteforce/spanish.txt
++ https://github.com/SooLFaa/fuzzing/blob/master/Dictionary-Lists-master/Dictionary-Lists/Wordlists/spanish.txt
+
+
 
 
 # Subdominios
@@ -45,6 +53,17 @@ Combination of:
 
 # General
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
+
+
+
+**spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
+Dictionary with all words from spanish dictionary
+
+Combination of:
++ https://www.openwall.com/wordlists/
++ https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
+
+
 
 # SQLi
 **sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
@@ -131,7 +150,11 @@ Combination of:
 + https://github.com/Karmaz95/crimson/blob/master/words/10k_commons_and_keymap.txt
 + https://github.com/Karmaz95/crimson/blob/master/words/credentials.txt
 
+**spanish_passwords.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_passwords.txt**
+Spanish version of rockyou
 
+Combination of:
++ rockealo.txt: https://ns2.elhacker.net/wordlists/
 
 
 # Usernames
@@ -142,5 +165,7 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/UserPassCombo-Jay.txt
 
+
+**spanish_usernames.txt: //TODO**
 
 
