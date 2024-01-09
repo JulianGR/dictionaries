@@ -150,11 +150,10 @@ Combination of:
 + https://github.com/Karmaz95/crimson/blob/master/words/10k_commons_and_keymap.txt
 + https://github.com/Karmaz95/crimson/blob/master/words/credentials.txt
 
-**spanish_passwords.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_passwords.txt**
+**spanish_passwords.txt: https://ns2.elhacker.net/wordlists/rockealo.txt.gz**
 Spanish version of rockyou
 
-Combination of:
-+ rockealo.txt: https://ns2.elhacker.net/wordlists/
+
 
 
 # Usernames
