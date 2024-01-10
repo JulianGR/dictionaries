@@ -37,7 +37,11 @@ Combination of:
 
 
 **spanish_directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_directories.txt**
+
+⚠️ It only contains words that are NOT in directories_combined.txt. The idea is to, **FIRST** use directories_combined.txt **AND THEN** use spanish_directories.txt
+
 Combination of:
++ Manual translation of directories_combined.txt
 + https://github.com/xmendez/wfuzz/tree/master/wordlist/general
 + https://github.com/v0re/dirb/blob/master/wordlists/spanish.txt
 + https://github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/filename-dirname-bruteforce/spanish.txt
