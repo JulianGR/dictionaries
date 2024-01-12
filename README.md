@@ -48,16 +48,16 @@ Combination of:
 + https://github.com/SooLFaa/fuzzing/blob/master/Dictionary-Lists-master/Dictionary-Lists/Wordlists/spanish.txt
 
 
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
 
 # Subdominios
 
 + https://github.com/theMiddleBlue/DNSenum/blob/master/wordlist/subdomains-top1mil-20000.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
 # General
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
-
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
 
 **spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
