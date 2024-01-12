@@ -48,6 +48,7 @@ Combination of:
 + https://github.com/SooLFaa/fuzzing/blob/master/Dictionary-Lists-master/Dictionary-Lists/Wordlists/spanish.txt
 
 
+Also good:
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
 
@@ -122,11 +123,14 @@ files-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/files-com
 **api.txt: https://github.com/JulianGR/dictionaries/blob/main/api.txt**
 
 Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/objects.txt
++ /SecLists/blob/master/Discovery/Web-Content/api/objects-lowercase.txt (slash) /SecLists/blob/master/Discovery/Web-Content/api/actions-lowercase.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/actions-lowercase.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/objects-lowercase.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-seen-in-wild.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-endpoints.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-endpoints-res.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-endpoints.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/salesforce-aura-objects.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/ispsystem_billmanager_api.txt
 
 
 
