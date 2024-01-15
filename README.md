@@ -176,3 +176,8 @@ Combination of:
 **spanish_usernames.txt: //TODO**
 
 
+# JWT secrets
+
++ https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list
+
+
