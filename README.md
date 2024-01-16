@@ -1,11 +1,12 @@
 # Dictionaries
-Custom wordlists for fuzzing (forked from SecLists - credits: https://github.com/danielmiessler/SecLists)
++ Custom wordlists for fuzzing (forked from SecLists - credits: https://github.com/danielmiessler/SecLists).
++ Also good to check out: https://wiki.skullsecurity.org/index.php?title=Passwords
 
 All of the combined wordlists are medium size: perfect for CTFs and regular pentesting, but not for bug bounty since they may be too short.
 
 
 
-### Tools for combining wordlists
+# Tools for combining wordlists
 + https://github.com/sts10/tidy
 
 ```shell
@@ -42,6 +43,7 @@ Combination of:
 
 Combination of:
 + Manual translation of directories_combined.txt
++ https://web.archive.org/web/20120207113205/http://www.insidepro.com/eng/download.shtml
 + https://github.com/xmendez/wfuzz/tree/master/wordlist/general
 + https://github.com/v0re/dirb/blob/master/wordlists/spanish.txt
 + https://github.com/fuzzdb-project/fuzzdb/blob/master/discovery/predictable-filepaths/filename-dirname-bruteforce/spanish.txt
@@ -67,6 +69,7 @@ Dictionary with all words from spanish dictionary
 Combination of:
 + https://www.openwall.com/wordlists/
 + https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
++ https://web.archive.org/web/20120207113205/http://www.insidepro.com/eng/download.shtml
 
 
 
@@ -162,6 +165,12 @@ Combination of:
 Spanish version of rockyou
 
 
+
+# Default passwords
+
++ https://cirt.net/passwords
++ https://default-password.info/
++ https://datarecovery.com/rd/default-passwords/
 
 
 # Usernames
