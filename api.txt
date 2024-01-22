@@ -8028,7 +8028,7 @@ GetInventoryItemTexture
 GetInventoryItemType
 GetInventorySlotInfo
 GetInvertedMatrix
-GetInvertedMatrix (see simInvertMatrix for the C-equivalent)
+GetInvertedMatrix
 GetItemMallLink
 GetItemQualityColor
 GetItemQueueInfo
@@ -10189,7 +10189,7 @@ intro
 introduction
 inventory
 InvertMatrix
-InvertMatrix (see simGetInvertedMatrix for the Lua-equivalent)
+InvertMatrix
 investors
 invitation
 invite
@@ -18503,7 +18503,7 @@ simGetIkGroupMatrix
 simGetIntegerParameter
 simGetIntegerSignal
 simGetInvertedMatrix
-simGetInvertedMatrix (see simInvertMatrix for the C-equivalent)
+simGetInvertedMatrix
 simGetJointForce
 simGetJointInterval
 simGetJointMatrix
@@ -18627,7 +18627,7 @@ simInitializePathSearch
 simInsertPathCtrlPoints
 simInterpolateMatrices
 simInvertMatrix
-simInvertMatrix (see simGetInvertedMatrix for the Lua-equivalent)
+simInvertMatrix
 simIsHandleValid
 simIsObjectInSelection
 simIsRealTimeSimulationStepNeeded
