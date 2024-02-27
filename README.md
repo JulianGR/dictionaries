@@ -1,6 +1,7 @@
 # Dictionaries
 + Custom wordlists for fuzzing (forked from SecLists - credits: https://github.com/danielmiessler/SecLists).
 + Also good to check out: https://wiki.skullsecurity.org/index.php?title=Passwords
++ https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
 
 All of the combined wordlists are medium size: perfect for CTFs and regular pentesting, but not for bug bounty since they may be too short.
 
