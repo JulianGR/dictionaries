@@ -191,3 +191,8 @@ Combination of:
 + https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list
 
 
+
+# Bug bounty
+Massive dictionaries
++ https://github.com/six2dez/OneListForAll
+
