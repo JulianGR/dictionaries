@@ -2,9 +2,9 @@
 + Custom wordlists for fuzzing (forked from SecLists - credits: https://github.com/danielmiessler/SecLists).
 + Also good to check out: https://wiki.skullsecurity.org/index.php?title=Passwords
 + https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
++ Alternative to seclists: https://wordlists.assetnote.io/
 
 All of the combined wordlists are medium size: perfect for CTFs and regular pentesting, but not for bug bounty since they may be too short.
-
 
 
 # Tools for combining wordlists
@@ -17,8 +17,19 @@ tidy 1.txt 2.txt  -O -q -C -o dic_combinado.txt
 There also exists https://s1gh.sh/tool-listcombine/ but is slower
 
 
-Alternative wordlists to seclists:
-https://wordlists.assetnote.io/
+# General
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
+
+### Spanish
+**spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
+Dictionary with all words from spanish dictionary
+
+Combination of:
++ https://www.openwall.com/wordlists/
++ https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
++ https://web.archive.org/web/20120207113205/http://www.insidepro.com/eng/download.shtml
+
 
 
 # Directories
@@ -38,6 +49,11 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM-friendly.txt
 
 
+
+//TODO: combination of api file 
+
+### Spanish
+
 **spanish_directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_directories.txt**
 
 ⚠️ It only contains words that are NOT in directories_combined.txt. The idea is to, **FIRST** use directories_combined.txt **AND THEN** use spanish_directories.txt
@@ -51,26 +67,12 @@ Combination of:
 + https://github.com/SooLFaa/fuzzing/blob/master/Dictionary-Lists-master/Dictionary-Lists/Wordlists/spanish.txt
 
 
-Also good:
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
-
 
 # Subdominios
 
 + https://github.com/theMiddleBlue/DNSenum/blob/master/wordlist/subdomains-top1mil-20000.txt
 
-# General
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
-
-**spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
-Dictionary with all words from spanish dictionary
-
-Combination of:
-+ https://www.openwall.com/wordlists/
-+ https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
-+ https://web.archive.org/web/20120207113205/http://www.insidepro.com/eng/download.shtml
 
 
 
@@ -103,6 +105,26 @@ Combination of:
 # Files
 
 files-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/files-combined.txt
+
+//TODO
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/Common-PHP-Filenames.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/LinuxFileList.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/Randomfiles.fuzz.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/UnixDotfiles.fuzz.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files-lowercase.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files-lowercase.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files-lowercase.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/versioning_metafiles.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/combined_words.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/combined_directories.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files.txt
+
+
+
 
 # XXE
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XXE-Fuzzing.txt
@@ -162,6 +184,8 @@ Combination of:
 + https://github.com/Karmaz95/crimson/blob/master/words/10k_commons_and_keymap.txt
 + https://github.com/Karmaz95/crimson/blob/master/words/credentials.txt
 
+
+### Spanish
 **spanish_passwords.txt: https://ns2.elhacker.net/wordlists/rockealo.txt.gz**
 Spanish version of rockyou
 
@@ -182,7 +206,7 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/UserPassCombo-Jay.txt
 
-
+### Spanish
 **spanish_usernames.txt: //TODO**
 
 
