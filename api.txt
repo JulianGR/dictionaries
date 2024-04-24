@@ -906,7 +906,6 @@ api/application.wadl
 api/auth
 api/auth/guest
 api/auth/login
-api/auth/logout
 api/batch
 api/branches
 api/brands
@@ -946,7 +945,6 @@ api/jsonws/invoke
 api/links
 api/log
 api/log/add
-api/logout
 api/menus
 api/models
 api/modules
@@ -1317,7 +1315,6 @@ auth
 auth_redirect
 auth/guest
 auth/login
-auth/logout
 AuthConfig
 AuthConfigProviders
 author
@@ -11649,8 +11646,6 @@ LoginScrollUpButton_OnUpdate
 logo
 logon
 logos
-logout
-Logout
 LogoutEventStream
 logs
 Logs
