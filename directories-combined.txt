@@ -545,7 +545,6 @@
 .localhistory/
 .lock
 .log
-.logout
 .luacheckrc
 .luacov
 .luna/user_info.json
@@ -1765,15 +1764,12 @@ Log-in
 Log/
 LogIn
 LogOn
-LogOut
 Login
 Login.asp
 Login.aspx
 Login/
 Logon
 Logos/
-Logout
-Logout.aspx
 Logs/
 Lost-password
 Lost-user-name
@@ -5383,8 +5379,6 @@ logon
 logon/
 logos
 logos/
-logout
-logout/
 logowanie
 logs/
 loja/
@@ -40172,7 +40166,6 @@ loginsuper
 loginsuper/
 logo_sysadmin/
 logou.php
-logout.asp
 logs.htm
 logs.html
 logs.mdb
