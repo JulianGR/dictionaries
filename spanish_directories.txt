@@ -22639,6 +22639,7 @@ usuario_media
 usuariomin
 usuario.php
 usuario-rss
+usuarios
 .usuarios
 __usuarios
 _usuarios
@@ -22648,6 +22649,10 @@ usuarios_acl
 usuarios_activos
 usuarios/admin
 usuarios_admin
+usuarios/admin
+usuarios/administador
+usuario/administrador
+usuarios/administradores
 usuarios/admin.php
 usuarioscpignore
 usuarios.csv
