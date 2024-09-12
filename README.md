@@ -98,6 +98,11 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/xss-without-parentheses-semi-colons-portswigger.txt
 
 
+
+## JavaScript events for XSS
+
++ https://github.com/JulianGR/dictionaries/blob/main/xss-events.txt
+
 # LFI
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-Jhaddix.txt
 
