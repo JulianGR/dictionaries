@@ -21,6 +21,9 @@ There also exists https://s1gh.sh/tool-listcombine/ but is slower
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
+## Symbols
++ https://github.com/JulianGR/dictionaries/blob/main/symbols.txt
+
 ### Spanish
 **spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
 Dictionary with all words from spanish dictionary
