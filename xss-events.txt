@@ -48,7 +48,6 @@ onScroll
 onseText
 onshow
 onStart
-onstructor
 onsubmit
 onToGgle
 ontouchcancel
