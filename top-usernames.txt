@@ -15,11 +15,7 @@ ansible
 ec2-user
 vagrant
 azureuser
-bwsa
-hbv7
-kisadmin
 su
-sa
 users
 vice
 wwo
@@ -27,8 +23,8 @@ adsuser
 adminuser
 developer
 rootuser
-Privileged
+privileged
 megauser
-Hyperuser
+hyperuser
 manager
 adminusr
