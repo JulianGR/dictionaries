@@ -193,6 +193,17 @@ Combination of:
 + https://github.com/Karmaz95/crimson/blob/master/words/credentials.txt
 
 
+
+**top-passwords.txt: https://github.com/JulianGR/dictionaries/blob/main/top-passwords.txt**
+Combination of:
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best15.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-20-common-SSH-passwords.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-passwords-shortlist.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/darkweb2017-top10.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10.txt
++ First 30 lines of https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-100.txt
+
+
 ### Spanish
 **spanish_passwords.txt: https://ns2.elhacker.net/wordlists/rockealo.txt.gz**
 Spanish version of rockyou
@@ -213,6 +224,15 @@ Spanish version of rockyou
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/UserPassCombo-Jay.txt
+
+
+
+**top-usernames.txt: https://github.com/JulianGR/dictionaries/blob/main/top-usernames.txt**
+Combination of:
++ https://github.com/danielmiessler/SecLists/blob/master/Usernames/top-usernames-shortlist.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Usernames/mssql-usernames-nansh0u-guardicore.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Usernames/sap-default-usernames.txt
+
 
 ### Spanish
 **spanish_usernames.txt: //TODO**
