@@ -1955,7 +1955,8 @@ Registration/
 ReloadXML
 Report
 Report/
-Reports List/
+Reports-List/
+ReportsList/
 Reports/
 Resellers
 ResetPassword
@@ -4198,7 +4199,8 @@ extensions/
 extern
 extern/
 external
-external files/
+external-files/
+externalfiles/
 external/
 externalbp
 externallink
@@ -42111,7 +42113,8 @@ opros
 cutesoft_client
 msoffice
 queries
-reports list
+reports-list
+reportslist
 dev2
 vehiclemakeoffer
 vehiclequote
@@ -42532,7 +42535,8 @@ wfs
 app_master
 htmleditor
 publishingimages
-style library
+style-library
+stylelibrary
 _pdf
 ana
 assets_c
@@ -43313,7 +43317,6 @@ mergetopics
 mgr
 misco
 misco_it
-modern mom
 modern_mom
 modifykarma
 modx
@@ -43326,7 +43329,6 @@ netcabo
 netmile
 netmomsde
 netpbm
-neuf giga photo
 neufgiga
 newspro
 nokia1
@@ -45377,7 +45379,8 @@ shopbyvehicle
 shoppingcarts
 siteelements
 wa_globals
-web references
+web-references
+webreferences
 xeabdbfddaccx
 _excel
 _wuscripts
@@ -46093,7 +46096,8 @@ isapi_rewrite
 logis
 markasspam
 modelglue
-my project
+my-project
+myproject
 polybot
 rutgers
 searchcenter
@@ -47125,7 +47129,8 @@ cit-e-access
 commonpgm
 companysearch
 configfiles
-contact us
+contact-us
+contactus
 contentmanager
 copia
 customerrorpages
@@ -48758,7 +48763,8 @@ dataentry
 devcomponents
 didyouknow
 distancelearning
-donate cash
+donate-cash
+donatecash
 eichart
 ekx
 en-uk
@@ -48780,7 +48786,8 @@ giftcertificate
 grandchildren
 hri
 hssi
-home page
+home-page
+homepage
 home_files
 horrorstories
 ibs
@@ -48823,10 +48830,13 @@ pnaimport
 pagefiles
 paypalexpress
 peopleobjects
-planned giving
+plannedgiving
+planned-giving
 plumbingissues
-press releases
-privacy policy
+pressreleases
+press-releases
+privacypolicy
+privacy-policy
 productcatalogue
 publickeys
 qms
@@ -48869,7 +48879,8 @@ shop18
 shop19
 shop20
 siphon
-site map
+sitemap
+site-map
 sourcetemplates
 stylegallery
 stylesheetwidget
@@ -51528,7 +51539,7 @@ aname
 armcalc
 ashimembership
 a_master
-about us
+about-us
 ourcompany
 abusereport
 accidentreports
@@ -51569,7 +51580,7 @@ bannerimage
 bannermodule
 beheersjablonen
 benutzerkonto
-bequest gift
+bequest-gift
 bin_7_6_6_47
 bluecommerce
 bluestats
@@ -51785,7 +51796,6 @@ lut
 laserdisc
 layoutcontrols
 lexisnexis
-life income gift
 loadbalancer
 local_files
 locationtree
@@ -51828,7 +51838,6 @@ nav_admin
 netmechanic
 netsol-files
 neuer
-new folder
 newconversion
 newmyaccount
 newsarticles
@@ -51931,7 +51940,6 @@ sharedmodules
 showall
 showing
 simpleratings
-site assets
 sitecrypt
 siteengine
 siteseeker
@@ -52012,7 +52020,6 @@ web_listings
 websiteimages
 wed-am-tmp
 wed-pm-tmp
-what is new
 whyshop
 widgets_user
 workedwith
