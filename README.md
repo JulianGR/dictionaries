@@ -244,6 +244,7 @@ Combination of:
 
 # SAP
 
+**sap.txt: https://github.com/JulianGR/dictionaries/blob/main/sap.txt**
 
 Combination of:
 + https://gist.github.com/0x240x23elu/88327494cf7331008a13bc7d5aabfe74
@@ -254,7 +255,18 @@ Combination of:
   
 ## SAP usernames, passwords and default credentials
 
+
+**sap-usernames.txt: https://github.com/JulianGR/dictionaries/blob/main/sap-usernames.txt**
+
+Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/sap-default-usernames.txt
+
+**sap-passwords.txt: https://github.com/JulianGR/dictionaries/blob/main/sap-passwords.txt**
+Combination of:
++ https://help.sap.com/docs/SAP_NETWEAVER_700/12a2bc096c53101493cef874af478673/3ecdaccbedc411d3a6510000e835363f.html
++ https://www.wallsec.de/blog/sap-default-passwords
++ https://github.com/OWASP/pysap/blob/master/examples/default_sap_credentialsç
++ https://www.cisoplatform.com/profiles/blogs/sap-netweaver-abap-security-configuration-part-2-default
 
 Clients:
 ```
