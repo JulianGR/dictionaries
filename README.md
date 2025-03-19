@@ -242,6 +242,28 @@ Combination of:
 
 + https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list
 
+# SAP
+
+
+Combination of:
++ https://gist.github.com/0x240x23elu/88327494cf7331008a13bc7d5aabfe74
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/CMS/SAP.fuzz.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/SAP-NetWeaver.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/sap-analytics-cloud.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/URLs/urls-SAP.txt
+  
+## SAP usernames, passwords and default credentials
+
++ https://github.com/danielmiessler/SecLists/blob/master/Usernames/sap-default-usernames.txt
+
+Clients:
+```
+000
+001
+066
+```
+
+
 
 
 # Bug bounty
