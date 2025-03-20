@@ -245,6 +245,7 @@ Combination of:
 # SAP
 
 **sap.txt: https://github.com/JulianGR/dictionaries/blob/main/sap.txt**
+**sap-reduced.txt: https://github.com/JulianGR/dictionaries/blob/main/sap-reduced.txt**
 
 Combination of:
 + https://gist.github.com/0x240x23elu/88327494cf7331008a13bc7d5aabfe74
