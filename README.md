@@ -176,10 +176,10 @@ Combination of:
 
 # Passwords
 
-**passwords-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-combined.txt**
+**passwords-short.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**
 
-Combination of:
-+ First 30k lines of rockyou
+For quick win cracking (about 2-5 min). Combination of (without duplicates):
++ First 100k lines of rockyou
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/2020-200_most_used_passwords.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt
@@ -196,14 +196,11 @@ Combination of:
 
 
 
-**top-passwords.txt: https://github.com/JulianGR/dictionaries/blob/main/top-passwords.txt**
-Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best15.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-20-common-SSH-passwords.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-passwords-shortlist.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/darkweb2017-top10.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10.txt
-+ First 30 lines of https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-100.txt
+**passwords-long.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**
+For long cracking (about 1-2 hours). Combination of (without duplicates):
++ passwords-short.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords.txt
++ rockyou
 
 
 ### Spanish
