@@ -16,7 +16,7 @@
 + https://github.com/sts10/tidy
 
 ```shell
-tidy 1.txt 2.txt  -O -q -C -o dic_combinado.txt
+tidy --no-sort --remove-nonascii -o dic_combinado.txt --straighten  1.txt 2.txt  
 ```
 
 There also exists https://s1gh.sh/tool-listcombine/ but is slower
@@ -46,15 +46,13 @@ Combination of:
 ### Directories
 
 **directories_short.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
+**directories_short_without_dots.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
 
 Combination of:
 
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-small.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-directories.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/dirsearch.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/RobotsDisallowed-Top500.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common-and-spanish.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM-friendly.txt
 
