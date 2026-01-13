@@ -26,6 +26,8 @@ There also exists https://s1gh.sh/tool-listcombine/ but is slower
 > ⚠️All provided combined dictionaries are clean (without duplicates)
 
 # General
+
+### Quickhits
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
@@ -47,8 +49,10 @@ Combination of:
 
 ### Directories
 
-**directories_short.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
-**directories_short_without_dots.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
+**directories_short_without_dots.txt (109k lines): https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
+
+**directories_short.txt (109k lines): https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
+
 
 Combination of:
 
@@ -59,11 +63,13 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM-friendly.txt
 
 
+**directories_long_without_dots.txt (264k lines): https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
 
-**directories_long.txt: (also contains some files)
+**directories_long.txt (265k lines): https://github.com/JulianGR/dictionaries/blob/main/directories_long.txt** (also contains some files)
+
 
 Combination of:
-
++ directories_short.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-directories.txt
 
