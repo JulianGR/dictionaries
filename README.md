@@ -98,11 +98,8 @@ Combination of:
 
 ### Subdomains/ Virtual hosts/ DNS
 
-subdomains-short.txt:
++ **subdomains short**: https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-20000.txt
 
-+ https://github.com/theMiddleBlue/DNSenum/blob/master/wordlist/subdomains-top1mil-20000.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-20000.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/namelist.txt
 
 
 subdomains-long.txt:
