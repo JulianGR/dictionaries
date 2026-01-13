@@ -16,7 +16,9 @@
 + https://github.com/sts10/tidy
 
 ```shell
-tidy --no-sort --remove-nonascii -o dic_combinado.txt --straighten  1.txt 2.txt  
+# So that the order or dic1 is respected
+cat dic1.txt dic2.txt | awk '!seen[$0]++' > combined.txt
+tidy --no-sort --remove-nonascii -o combined_clean.txt --straighten combined.txt
 ```
 
 There also exists https://s1gh.sh/tool-listcombine/ but is slower
