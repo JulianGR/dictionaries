@@ -1,4 +1,7 @@
 # Dictionaries
+
+### Sources
+
 + Custom wordlists for fuzzing (forked from SecLists - credits: https://github.com/danielmiessler/SecLists).
 + Also good to check out: https://wiki.skullsecurity.org/index.php?title=Passwords
 + https://security.stackexchange.com/questions/1376/where-can-i-find-good-dictionaries-for-dictionary-attacks
@@ -6,10 +9,10 @@
 + https://github.com/zzzteph/weakpass
 + https://github.com/gmelodie/awesome-wordlists
 
-All of the combined wordlists are medium size: perfect for CTFs and regular pentesting, but not for bug bounty since they may be too short.
 
 
-# Tools for combining wordlists
+
+### Tools for combining wordlists
 + https://github.com/sts10/tidy
 
 ```shell
@@ -18,15 +21,16 @@ tidy 1.txt 2.txt  -O -q -C -o dic_combinado.txt
 
 There also exists https://s1gh.sh/tool-listcombine/ but is slower
 
+> ⚠️All provided combined dictionaries are clean (without duplicates)
 
 # General
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/big-list-of-naughty-strings.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/quickhits.txt
 
-## Symbols
+### Symbols
 + https://github.com/JulianGR/dictionaries/blob/main/symbols.txt
 
-### Spanish
+#### Spanish
 **spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
 Dictionary with all words from spanish dictionary
 
@@ -37,27 +41,40 @@ Combination of:
 
 
 
-# Directories
+# Content Discovery
 
+### Directories
 
-**directories_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt**
-
+**directories_short.txt: https://github.com/JulianGR/dictionaries/blob/main/directories-combined.txt** (also contains some files)
 
 Combination of:
+
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-small.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-directories.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/dirsearch.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-directories-lowercase.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/RobotsDisallowed-Top500.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/common-and-spanish.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/directory-list-lowercase-2.3-small.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/fuzz-Bo0oM-friendly.txt
 
 
 
-//TODO: combination of api file 
+**directories_long.txt: (also contains some files)
 
-### Spanish
+Combination of:
+
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-directories.txt
+
+
+
+
+
+
+
+
+#### Spanish
 
 **spanish_directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_directories.txt**
 
@@ -73,88 +90,30 @@ Combination of:
 
 
 
-# Subdominios
+### Subdomains/ Virtual hosts/ DNS
+
+subdomains-short.txt:
 
 + https://github.com/theMiddleBlue/DNSenum/blob/master/wordlist/subdomains-top1mil-20000.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-20000.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/namelist.txt
+
+
+subdomains-long.txt:
+
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-110000.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/bitquark-subdomains-top100000.txt
+
+
+### Files
+
+files-short: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
+
+files-long: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files.txt
 
 
 
-
-
-# SQLi
-**sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
-
-Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/quick-SQLi.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-BlindSQLi.fuzzdb.txt
-
-
-
-# XSS
-**xss_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/xss_combined.txt**
-
-Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS-Fuzzing
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-BruteLogic.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Jhaddix.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-RSNAKE.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Somdev.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/xss-without-parentheses-semi-colons-portswigger.txt
-
-
-
-## JavaScript events for XSS
-
-+ https://github.com/JulianGR/dictionaries/blob/main/xss-events.txt
-
-# LFI
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-Jhaddix.txt
-
-
-# Files
-
-files-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/files-combined.txt
-
-//TODO
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/Common-PHP-Filenames.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/LinuxFileList.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/Randomfiles.fuzz.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/UnixDotfiles.fuzz.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/versioning_metafiles.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/combined_words.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/combined_directories.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-small-files.txt
-
-
-
-
-# XXE
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XXE-Fuzzing.txt
-
-# SSI
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SSI-Injection-Jhaddix.txt
-
-
-# SSTI
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/template-engines-expression.txt
-
-
-# HTML Injection
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/HTML5sec-Injections-Jhaddix.txt
-
-
-# Json
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/JSON.Fuzzing.txt
-
-# API
+### API
 
 **api.txt: https://github.com/JulianGR/dictionaries/blob/main/api.txt**
 
@@ -170,15 +129,79 @@ Combination of:
 
 
 
+# Injections
+
+### SQLi
+**sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
+
+Combination of:
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/quick-SQLi.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-BlindSQLi.fuzzdb.txt
+
+
+
+### XSS
+**xss_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/xss_combined.txt**
+
+Combination of:
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS-Fuzzing
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-BruteLogic.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Jhaddix.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-RSNAKE.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Somdev.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/xss-without-parentheses-semi-colons-portswigger.txt
+
+
+
+#### JavaScript events for XSS
+
++ https://github.com/JulianGR/dictionaries/blob/main/xss-events.txt
+
+### LFI
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/LFI/LFI-Jhaddix.txt
 
 
 
 
-# Passwords
 
-**passwords-short.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**
+### XXE
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XXE-Fuzzing.txt
 
-For quick win cracking (about 2-5 min). Combination of (without duplicates):
+### SSI
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SSI-Injection-Jhaddix.txt
+
+
+### SSTI
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/template-engines-expression.txt
+
+
+### HTML Injection
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/HTML5sec-Injections-Jhaddix.txt
+
+
+### Json
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/JSON.Fuzzing.txt
+
+
+
+
+
+
+
+
+# Credentials 
+
+### Default passwords
+
++ https://cirt.net/passwords
++ https://default-password.info/
++ https://datarecovery.com/rd/default-passwords/
+
+### Passwords
+
+**passwords-short.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For quick win cracking (about 2-5 min). Combination of:
+
 + First 100k lines of rockyou
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/2020-200_most_used_passwords.txt
@@ -196,27 +219,22 @@ For quick win cracking (about 2-5 min). Combination of (without duplicates):
 
 
 
-**passwords-long.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**
-For long cracking (about 1-2 hours). Combination of (without duplicates):
+**passwords-long.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For long cracking (about 1-2 hours). Combination of:
 + passwords-short.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords.txt
 + rockyou
 
 
-### Spanish
+#### Spanish
 **spanish_passwords.txt: https://ns2.elhacker.net/wordlists/rockealo.txt.gz**
 Spanish version of rockyou
 
 
 
-# Default passwords
-
-+ https://cirt.net/passwords
-+ https://default-password.info/
-+ https://datarecovery.com/rd/default-passwords/
 
 
-# Usernames
+
+### Usernames
 
 **usernames-combined.txt: https://github.com/JulianGR/dictionaries/blob/main/usernames-combined.txt**
 
@@ -233,15 +251,19 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Usernames/sap-default-usernames.txt
 
 
-### Spanish
+#### Spanish
 **spanish_usernames.txt: //TODO**
 
 
-# JWT secrets
+### JWT secrets
 
 + https://github.com/wallarm/jwt-secrets/blob/master/jwt.secrets.list
 
-# SAP
+
+# Technology specific
+
+### SAP
+
 
 **sap.txt: https://github.com/JulianGR/dictionaries/blob/main/sap.txt**
 **sap-reduced.txt: https://github.com/JulianGR/dictionaries/blob/main/sap-reduced.txt**
@@ -253,7 +275,7 @@ Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/sap-analytics-cloud.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/URLs/urls-SAP.txt
   
-## SAP usernames, passwords and default credentials
+#### SAP usernames, passwords and default credentials
 
 
 **sap-usernames.txt: https://github.com/JulianGR/dictionaries/blob/main/sap-usernames.txt**
@@ -276,9 +298,4 @@ Clients:
 ```
 
 
-
-
-# Bug bounty
-Massive dictionaries
-+ https://github.com/six2dez/OneListForAll
 
