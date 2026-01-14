@@ -98,11 +98,10 @@ Combination of:
 
 ### Subdomains/ Virtual hosts/ DNS
 
-+ **subdomains short**: https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-20000.txt
++ **subdomains short (20k lines)**: https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-20000.txt
 
 
-
-**subdomains-long.txt**: https://github.com/JulianGR/dictionaries/blob/main/subdomains-long.txt
+**subdomains-long.txt (191k lines)**: https://github.com/JulianGR/dictionaries/blob/main/subdomains-long.txt
 
 Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-110000.txt
@@ -111,9 +110,8 @@ Combination of:
 
 ### Files
 
-files-short: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
-
-files-long: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files.txt
++ files-short (17k lines): https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-medium-files.txt
++ files-long (37k lines): https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/raft-large-files.txt
 
 
 
@@ -121,7 +119,7 @@ files-long: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web
 # Injections
 
 ### SQLi
-**sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
+**sql_combined.txt (370 lines): https://github.com/JulianGR/dictionaries/blob/main/sql_combined.txt**
 
 Combination of: (removed "delete" statements)
 + https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/Databases/SQLi/quick-SQLi.txt
@@ -131,16 +129,26 @@ Combination of: (removed "delete" statements)
 
 
 ### XSS
-**xss_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/xss_combined.txt**
+
+**xss_short.txt (450 lines): https://github.com/JulianGR/dictionaries/blob/main/xss_short.txt**
+
 
 Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS-Fuzzing
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-BruteLogic.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Jhaddix.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-RSNAKE.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/XSS-Somdev.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/xss-without-parentheses-semi-colons-portswigger.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-Vectors-Mario.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-Somdev.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-RSNAKE.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-Jhaddix.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-BruteLogic.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/xss-without-parentheses-semi-colons-portswigger.txt
 
+**xss_long.txt (8k lines): https://github.com/JulianGR/dictionaries/blob/main/xss_long.txt**
+
+Combination of:
++ xss_short.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-OFJAAAH.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-Fuzzing.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-payloadbox.txt
++https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/XSS/robot-friendly/XSS-Cheat-Sheet-PortSwigger.txt
 
 
 #### JavaScript events for XSS
@@ -189,29 +197,21 @@ Combination of:
 
 ### Passwords
 
-**passwords-short.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For quick win cracking (about 2-5 min). Combination of:
+**passwords-short.txt (160k lines): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For quick win cracking (about 2-5 min). Combination of:
 
-+ First 100k lines of rockyou
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords-10000.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/2020-200_most_used_passwords.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10k-most-common.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/best1050.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/common-passwords-win.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-20-common-SSH-passwords.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/top-passwords-shortlist.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/worst-passwords-2017-top100-slashdata.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/500-worst-passwords.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/default-passwords.txt
-+ https://github.com/Karmaz95/crimson/blob/master/words/10k_commons_and_keymap.txt
-+ https://github.com/Karmaz95/crimson/blob/master/words/credentials.txt
++ Literally, every single file under 100k lines in https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials/ , including: 
+  + First 100k lines of rockyou
+  + https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/xato-net-10-million-passwords-100000.txt
+  + ... all others
 
 
 
-**passwords-long.txt: https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For long cracking (about 1-2 hours). Combination of:
-+ passwords-short.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords.txt
-+ rockyou
+
+**passwords-long.txt (2.5 million lines, 240MB split into 4 files ): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For long cracking (about 3-4 hours). Combination of:
++ Literally, every single file in https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials/, including:
+  + passwords-short.txt
+  + https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords.txt
+  + entire rockyou
 
 
 #### Spanish
