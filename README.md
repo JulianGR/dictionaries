@@ -35,7 +35,7 @@ There also exists https://s1gh.sh/tool-listcombine/ but is slower
 + https://github.com/JulianGR/dictionaries/blob/main/symbols.txt
 
 #### Spanish
-**spanish_general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_general.txt**
+**spanish-general.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish-general.txt**
 Dictionary with all words from spanish dictionary
 
 Combination of:
@@ -82,7 +82,7 @@ Combination of:
 
 #### Spanish
 
-**spanish_directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish_directories.txt**
+**spanish-directories.txt: https://github.com/JulianGR/dictionaries/blob/main/spanish-directories.txt**
 
 ⚠️ It only contains words that are NOT in directories_combined.txt. The idea is to, **FIRST** use directories_combined.txt **AND THEN** use spanish_directories.txt
 
@@ -102,8 +102,9 @@ Combination of:
 
 
 
-subdomains-long.txt:
+**subdomains-long.txt**: https://github.com/JulianGR/dictionaries/blob/main/subdomains-long.txt
 
+Combination of:
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/subdomains-top1million-110000.txt
 + https://github.com/danielmiessler/SecLists/blob/master/Discovery/DNS/bitquark-subdomains-top100000.txt
 
@@ -116,31 +117,16 @@ files-long: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web
 
 
 
-### API
-
-**api.txt: https://github.com/JulianGR/dictionaries/blob/main/api.txt**
-
-Combination of:
-+ /SecLists/blob/master/Discovery/Web-Content/api/objects-lowercase.txt (slash) /SecLists/blob/master/Discovery/Web-Content/api/actions-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/actions-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/objects-lowercase.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-seen-in-wild.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-endpoints-res.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/api-endpoints.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/salesforce-aura-objects.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/api/ispsystem_billmanager_api.txt
-
-
 
 # Injections
 
 ### SQLi
 **sql_combined.txt: https://github.com/JulianGR/dictionaries/blob/main/sql-combined.txt**
 
-Combination of:
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-SQLi.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/quick-SQLi.txt
-+ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/SQLi/Generic-BlindSQLi.fuzzdb.txt
+Combination of: (removed "delete" statements)
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/Databases/SQLi/quick-SQLi.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/Databases/SQLi/Generic-SQLi.txt
++ https://github.com/danielmiessler/SecLists/blob/master/Fuzzing/Databases/SQLi/Generic-BlindSQLi.fuzzdb.txt
 
 
 
