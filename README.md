@@ -197,7 +197,7 @@ Combination of:
 
 ### Passwords
 
-**passwords-short.txt (160k lines): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For quick win cracking (about 2-5 min). Combination of:
+**passwords-short.txt (160k lines): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For quick win cracking (about 30s with AMD 6650 XT). Combination of:
 
 + Literally, every single file under 100k lines in https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials/ , including: 
   + First 100k lines of rockyou
@@ -207,7 +207,7 @@ Combination of:
 
 
 
-**passwords-long.txt (2.5 million lines, 240MB split into 4 files ): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For long cracking (about 3-4 hours). Combination of:
+**passwords-long.txt (2.5 million lines, 240MB split into 4 files ): https://github.com/JulianGR/dictionaries/blob/main/passwords-short.txt**. For long cracking (about 6 min with AMD 6650 XT). Combination of:
 + Literally, every single file in https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials/, including:
   + passwords-short.txt
   + https://github.com/danielmiessler/SecLists/blob/master/Passwords/xato-net-10-million-passwords.txt
